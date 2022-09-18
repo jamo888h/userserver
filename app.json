@@ -1,0 +1,26 @@
+{
+    "name": "MORAG TELEGRAPH UPLOADER",
+    "description": "A BOT THAT CAN UPLOAD MEDIAS TO TELEGRA.PH",
+    "logo": "https://telegra.ph/file/2ebd844b4c5ef8c458b8c.jpg",
+    "keywords": [
+        "Telegra.ph",
+        "Uploader",
+        "Telegram Bot",
+        "Benchamxd"
+    ],
+    "website": "http://ultroncc.42web.io.",
+    "repository": "https://github.com/r0ld3x/MORAG-TELEGRAPH-BOT",
+    "success_url": "https://telegram.dog/MORAGLINKS",
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
